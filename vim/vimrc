@@ -184,7 +184,11 @@ nmap +hl :set hlsearch<cr>
 " Javascript syntax hightlight
 syntax enable
 
-" ctrap
+" YouCompleteMe
+let g:ycm_autoclose_preview_window_after_completion=1
+nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+" ctrlp
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux"
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
