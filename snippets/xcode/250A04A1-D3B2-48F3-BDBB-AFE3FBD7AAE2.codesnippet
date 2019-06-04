@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>controller view hierarchy</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - Lifecycle
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    self.title = @"&lt;##&gt;";
+    
+    //构建view hierarchy
+    [self addSubviews];
+    [self defineLayout];
+}
+
+#pragma mark - View hierarchy and layout
+- (void)addSubviews
+{
+    
+}
+
+- (void)defineLayout
+{
+    
+}
+
+#pragma mark - Lazy initialization
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>250A04A1-D3B2-48F3-BDBB-AFE3FBD7AAE2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Build controller's view hierarchy and layout</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Controller's View Hierarchy and Layout</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
